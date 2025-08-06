@@ -8,8 +8,7 @@
   "files": {
     "ignoreUnknown": false,
     "includes": [
-      "packages/**/*",
-      "templates/**/src/**/*",
+      "src/**/*",
       "scripts/**/*"
     ]
   },
