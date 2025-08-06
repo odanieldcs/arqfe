@@ -1,0 +1,38 @@
+{
+  "name": "arqfe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "biome format . --write",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "check": "biome check .",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "none": "^22.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/odanieldcs/arqfe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/odanieldcs/arqfe/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "arqfe",
+    "monorepo",
+    "pnpm",
+    "nodejs",
+    "typescript",
+    "tooling",
+    "cli"
+  ],
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.3",
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  }
+}
